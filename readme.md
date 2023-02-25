@@ -1,6 +1,6 @@
 # Cliurches-API
 
-**description:** Cliurches-API Documentation.
+Cliurches-API Documentation.
 
 
 ## REGISTER USER ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
