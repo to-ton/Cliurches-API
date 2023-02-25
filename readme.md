@@ -8,7 +8,7 @@ Cliurches-API Documentation.
 ```
 ## SENDING LIKE TO A POST 
 ```
-/api/sendlike/?id=[post id]&api_key=[user api_key]
+/api/sendlike/?postid=[post id]&api_key=[user api_key]
 ```
 ## DISPLAY ALL POSTS 
 ```
