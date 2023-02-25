@@ -10,7 +10,7 @@ Cliurches-API Documentation.
 ```
 /api/view_timeline/?&api_key=[user api_key]
 ```
-## POST CONTENT ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+## POST NEW CONTENT ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
 ```
 /api/create_post/?title=[post title]&content=[pots content]&category=[post category]&api_key=[user api_key]
 ```
