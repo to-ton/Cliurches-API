@@ -2,10 +2,7 @@
 
 Cliurches-API Documentation.
 
-## EDIT USER DETAILS (Display Old info)![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
-```
-/edit_details/?firstname=[first name]&lastname=[last name]&email=&api_key=[user api_key]
-```
+
 ## USER DETAILS ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
 ```
 /api/user_details/?api_key=[user api_key]
