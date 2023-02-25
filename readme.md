@@ -2,7 +2,15 @@
 
 Cliurches-API Documentation.
 
-## DISPLAY POST PER CATEGORY ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+## EDIT USER DETAILS (Display Old info)![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+```
+/edit_details/?firstname=[first name]&lastname=[last name]&email=&api_key=[user api_key]
+```
+## USER DETAILS ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+```
+/api/user_details/?api_key=[user api_key]
+```
+## DISPLAY POST PER CATEGORY 
 ```
 /api/view_category/?category=[category name]&api_key=[user api_key]
 ```
@@ -16,11 +24,15 @@ Cliurches-API Documentation.
 ```
 ## POST NEW CONTENT 
 ```
-/api/create_post/?title=[post title]&content=[pots content]&category=[post category]&api_key=[user api_key]
+/api/create_post/?title=[post title]&content=[post content]&category=[post category]&api_key=[user api_key]
 ```
 ## REGISTER USER 
 ```
 /api/new_user/?email=[email]&password=[password]&firstname=[firstname]&lastname=[lastname]
+```
+## LOGOUT USER ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+```
+/api/logout/?api_key=[user api_key]
 ```
 ## LOGIN USER 
 ```
