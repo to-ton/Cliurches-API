@@ -1,7 +1,8 @@
 # Cliurches-API
 
 Cliurches-API Documentation.
-##SENDING LIKE TO A POST ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+
+## SENDING LIKE TO A POST ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
 ```
 /api/sendlike/?id=[post id]&api_key=[user api_key]
 ```
