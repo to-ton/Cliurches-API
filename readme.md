@@ -1,17 +1,24 @@
 # Cliurches-API
 
 Cliurches-API Documentation.
+##SENDING LIKE TO A POST ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+/api/sendlike/?id=[post id]&api_key=[user api_key]
 
+## DISPLAY ALL POSTS ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+/api/view_timeline/?&api_key=[user api_key]
 
-## REGISTER USER ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+## POST CONTENT ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+/api/create_post/?title=[post title]&content=[pots content]&category=[post category]&api_key=[user api_key]
+
+## REGISTER USER 
 ```
-api/new_user/?email=[email]&password=[password]&firstname=[firstname]&lastname=[lastname]
+/api/new_user/?email=[email]&password=[password]&firstname=[firstname]&lastname=[lastname]
 ```
-## LOGIN USER ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+## LOGIN USER 
 ```
 /api/login/?email=[email]&password=[password]
 ```
-## CONFIRM EMAIL ADDRESS ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+## CONFIRM EMAIL ADDRESS 
 ```
-/api/confirm/?&uid=[USER ID]&api_key=[api key]
+/api/confirm/?&uid=[user id]&api_key=[api key]
 ```
