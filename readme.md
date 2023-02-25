@@ -2,7 +2,7 @@
 
 Cliurches-API Documentation.
 
-## VIEW POST PER CATEGORY ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+## DISPLAY POST PER CATEGORY ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
 ```
 /api/view_category/?category=[category name]&api_key=[user api_key]
 ```
