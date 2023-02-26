@@ -3,6 +3,11 @@
 Cliurches-API Documentation.
 
 
+
+## EDIT USER DETAILS ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+```
+/edit_details/?firstname=[first name]&lastname=[last name]&email=&api_key=[user api_key]
+```
 ## DELETE POST ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
 ```
 /api/delete_post/?api_key=[user api_key]
