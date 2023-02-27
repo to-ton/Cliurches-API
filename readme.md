@@ -78,7 +78,7 @@ Returns Payment Method, Account Number, Account Name na ni set ni Admin.
 ```
 /api/new_user/?email=[email]&password=[password]&firstname=[firstname]&lastname=[lastname]
 ```
-## LOGOUT USER ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+## LOGOUT USER 
 ```
 /api/logout/?api_key=[user api_key]
 ```
