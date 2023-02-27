@@ -10,7 +10,7 @@ Cliurches-API Documentation.
 ```
 ## DELETE POST ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
 ```
-/api/delete_post/?api_key=[user api_key]
+/api/delete_post/?postid=[Post ID]&api_key=[user api_key]
 ```
 ## USER DETAILS 
 ```
