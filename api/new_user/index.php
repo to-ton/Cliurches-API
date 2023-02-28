@@ -33,7 +33,7 @@ if(mysqli_num_rows($check_email) > 0)
         echo json_encode(array('status' => 'success')); 
  $mail = new PHPMailer();
                 $mail->isSMTP();
-                $mail->SMTPAuth = ;
+                $mail->SMTPAuth = true;
                 $mail->SMTPSecure ='';
                 $mail->Host = '';
                 $mail->Port = '';

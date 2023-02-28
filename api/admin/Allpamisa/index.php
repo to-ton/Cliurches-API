@@ -26,7 +26,7 @@ if(isset($_GET['api_key'])){
             
             
                 
-            $response[$i]['orderID'] = $row['id'];
+            $response[$i]['id'] = $row['id'];
             $response[$i]['userID'] = $row['uid'];
             $response[$i]['parish'] = $row['parish'];
             $response[$i]['receiptDate'] = $row['dateStamp'];

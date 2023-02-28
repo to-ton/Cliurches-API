@@ -5,16 +5,15 @@ $response = array();
 
 if(isset($_GET['api_key'])){
     $api_key = $_GET['api_key'];
-    $parish = $_GET['parish'];
     $check_api = "select uid from register where api_key='$api_key'";
     $result1 = mysqli_query($mysqli, $check_api);
     
          $convert = mysqli_fetch_assoc($result1);
         $final_result = implode("", $convert);
     
-    if($final_result == $parish){
+    if($result1){
     
-    $sql = "select * from padasal where parish='$parish' and status = 'approved' ORDER BY dateStamp ASC";
+    $sql = "select * from gallery where uid='$final_result' ORDER BY dateStamp ASC";
     $result2 = mysqli_query($mysqli, $sql);
 
     if($result2){
@@ -26,19 +25,10 @@ if(isset($_GET['api_key'])){
             
             
                 
-            $response[$i]['id'] = $row['id'];
-            $response[$i]['userID'] = $row['uid'];
-            $response[$i]['parish'] = $row['parish'];
-            $response[$i]['receiptDate'] = $row['dateStamp'];
-            $response[$i]['type'] = $row['type'];
-            $response[$i]['recipient'] = $row['recipient'];
-            $response[$i]['forwhom'] = $row['forwhom'];
-            $response[$i]['date'] = $row['date'];
-            $response[$i]['time'] = $row['time'];
-            $response[$i]['comment'] = $row['comment'];
-            $response[$i]['status'] = $row['status'];
-            
-
+            $response[$i]['dateStamp'] = $row['dateStamp'];
+            $response[$i]['uid'] = $row['uid'];
+            $response[$i]['img_link'] = $row['img_link'];
+        
       
             $i++;
                 

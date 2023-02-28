@@ -3,6 +3,15 @@
 Cliurches-API Documentation.
 
 
+
+## User: Show User gallery ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+```
+/api/media/usergallery/?api_key=[user api_key]
+```
+## User: Upload Image ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
+```
+/api/media/upload/?image=[image]&name=[filename]&api_key=[user api_key]
+```
 ## User: Create Pamisa ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
 ```
 /api/pamisa/?parish=[bauan,bolo,sanpascual,aplaya]&recipient=[padasal ni]&forwhom=[para kay]&date=[petsa]&time=[oras]&type=[uri ng padasal]&comment=[mensahe]&api_key=[user api_key]
