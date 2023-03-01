@@ -19,7 +19,7 @@ Cliurches-API Documentation.
 ## User: Display Payment Method in "Payment" ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
 Returns Payment Method, Account Number, Account Name na ni set ni Admin.
 ```
-/api/donation/?parish=[bauan,bolo,sanpascual,aplaya]&api_key=[user api_key]
+/api/payumentMethod/?parish=[bauan,bolo,sanpascual,aplaya]&api_key=[user api_key]
 ```
 ## User: Display User Pamisa ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `NEW`
 ```
